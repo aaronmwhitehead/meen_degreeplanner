@@ -1,4 +1,0 @@
-[build]
-base = "meen_degreeplanner/"
-publish = "meen_degreeplanner/build/"
-command = "npm run build"

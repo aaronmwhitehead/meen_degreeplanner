@@ -262,7 +262,6 @@ window.onload = function() {
 	const transfer = document.createElement('div');
 	const links = document.createElement('i');
 	const info = document.createElement('i');
-	// const popup = document.createElement('div');
 
 	document.querySelector('.check-body').innerHTML = 'All of your courses are good.';
 	document.querySelectorAll('.react-trello-card').forEach((card) => { card.removeAttribute('title'); });
@@ -278,12 +277,6 @@ window.onload = function() {
 	info.setAttribute('onclick', 'displayInfo()')
 	document.querySelector('.check-header').appendChild(info);
 
-
-	// popup.setAttribute('class', 'popup');
-
-	// popup.innerHTML = 'Hello';
-	// links.appendChild(popup);
-
 	lanes[0].style.zIndex = "1";
 	lanes[0].classList.add('transfer');
 	lanes[0].parentElement.prepend(transfer);
@@ -295,7 +288,6 @@ window.onload = function() {
 		labels.forEach((label) => {
 		totalHours += Number(label.innerHTML);
 		});
-		// console.log(`Total Hours: ${totalHours}`);
 	});
 
 	// Remove the + signs from all of the semesters
@@ -362,40 +354,4 @@ window.onload = function() {
 		attributeOldValue: true,
 		characterDataOldValue: true
 	});
-
-
-
-
-
-
-	// const tour = new Shepherd.Tour({
-	// 	defaultStepOptions: {
-	// 		classes: 'shadow-md bg-purple-dark',
-	// 		scrollTo: true
-	// 	}
-	// });
-
-	// tour.addStep('step-1', {
-	// 	text: 'This step is attached to the top of the <code>.check-courses-btn</code> element.',
-	// 	attachTo: '.check-courses-btn top',
-	// 	buttons: [
-	// 		{
-	// 		text: 'Next',
-	// 		action: tour.next
-	// 		}
-	// 	]
-	// });
-
-	// tour.addStep('example-step', {
-	// 	text: 'This step is attached to the top of the <code>.check-courses-btn</code> element.',
-	// 	attachTo: '.Board right',
-	// 	buttons: [
-	// 		{
-	// 		text: 'Next',
-	// 		action: tour.next
-	// 		}
-	// 	]
-	// });
-
-	// tour.start();
 }
