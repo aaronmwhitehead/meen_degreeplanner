@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import ReactDOMServer from 'react-dom/server';
 import data from "./data.json";
 import "./styles/styles.css";
-import Board from "./board";
+import Board from "./board/inde.js";
 
 var flag, counter; 
 
