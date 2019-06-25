@@ -1,0 +1,873 @@
+{
+  "lanes": [
+    {
+      "id": "transfer",
+      "cards": []
+    },
+    {
+      "id": "0",
+      "label": "",
+      "cards": [
+        {
+          "id": "MATH151",
+          "title": "MATH 151",
+          "label": "4",
+          "description": "Engineering Math I",
+          "coursetype": "pre-engr",
+          "prereqs": [],
+          "coreqs": [],
+          "metadata": {
+            "title": "MATH 151 Engineering Mathematics I",
+            "credit": "Credits 4. 3 Lecture Hours. 2 Lab Hours. ",
+            "body": "(MATH 2413) Engineering Mathematics I.  Rectangular coordinates, vectors, analytic geometry, functions, limits, derivatives of functions, applications, integration, computer algebra. MATH 171 designed to be a more demanding version of this course. Only one of the following will satisfy the requirements for a degree: MATH 131, MATH 142, MATH 147, MATH 151 and MATH 171. ",
+            "footer": "Prerequisite: MATH 150 or equivalent or acceptable score on TAMU Math Placement Exam; also taught at Galveston campus."
+          }
+        },
+        {
+          "id": "ENGR102",
+          "title": "ENGR 102",
+          "label": "2",
+          "description": "Computation Engr. Lab I",
+          "coursetype": "pre-engr",
+          "prereqs": [],
+          "coreqs": [
+            "MATH151"
+          ],
+          "metadata": {
+            "title": "ENGR 102 Engineering Lab I - Computation",
+            "credit": "Credits 2. 1 Lecture Hour. 3 Lab Hours. ",
+            "body": "Introduction to the design and development of computer applications for engineers; computation to enhance problem solving abilities; basic concepts of software design through the implementation and debugging of student-written programs; introduction to engineering majors, career exploration, engineering practice within realistic constraints, e.g. economic, environmental, ethical, health and safety, and sustainability; pathways to success in engineering. ",
+            "footer": "Prerequisites: Grade of C or better in MATH 151, or concurrent enrollment; admission to the college of engineering."
+          }
+        },
+        {
+          "id": "CHEM107",
+          "title": "CHEM 107",
+          "label": "3",
+          "description": "Gen. Chem. for Engineers/Lab",
+          "coursetype": "pre-engr",
+          "prereqs": [],
+          "coreqs": [],
+          "metadata": {
+            "title": "CHEM 107 General Chemistry for Engineering Students",
+            "credit": "Credits 3. 3 Lecture Hours. ",
+            "body": "(CHEM 1309, 1409*) General Chemistry for Engineering Students.  Introduction to important concepts and principles of chemistry; emphasis on areas considered most relevant in an engineering context; practical applications of chemical principles in engineering and technology. Students completing CHEM 107 and changing majors to curricula requiring CHEM 101 and CHEM 102 may substitute CHEM 107 for CHEM 101. Only one of the following will satisfy the requirements for a degree: CHEM 107 and CHEM 101. ",
+            "footer": "Prerequisite: Concurrent enrollment in CHEM 117; also taught at Galveston campus."
+          }
+        },
+        {
+          "id": "ENGL",
+          "title": "ENGL 103",
+          "label": "3",
+          "description": "Composition and Rhetoric",
+          "coursetype": "ucc",
+          "prereqs": [],
+          "coreqs": [],
+          "metadata": {
+            "title": "ENGL 103 Introduction to Rhetoric and Composition",
+            "credit": "Credits 3. 3 Lecture Hours. ",
+            "body": "(ENGL 1301) Introduction to Rhetoric and Composition.  Intensive study of and practice in writing processes, from invention and researching to drafting, revising and editing, both individually and corroboratively; emphasis on effective rhetorical choices including audience, purpose, arrangement and style; focus on writing the academic essay as a vehicle for learning, communicating and critical analysis.",
+            "footer": ""
+          }
+        },
+        {
+          "id": "UCC1",
+          "title": "UCC",
+          "label": "3",
+          "description": "Elective",
+          "coursetype": "ucc",
+          "prereqs": [],
+          "coreqs": [],
+          "metadata": {
+            "title": "",
+            "credit": "",
+            "body": "",
+            "footer": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "cards": [
+        {
+          "id": "MATH152",
+          "title": "MATH 152",
+          "label": "4",
+          "description": "Engineering Math II",
+          "coursetype": "pre-engr",
+          "prereqs": [
+            "MATH151"
+          ],
+          "coreqs": [],
+          "metadata": {
+            "title": "MATH 152 Engineering Mathematics II",
+            "credit": "Credits 4. 3 Lecture Hours. 2 Lab Hours. ",
+            "body": "(MATH 2414) Engineering Mathematics II.  Differentiation and integration techniques and their applications (area, volumes, work), improper integrals, approximate integration, analytic geometry, vectors, infinite series, power series, Taylor series, computer algebra. MATH 172 designed to be a more demanding version of this course. Only one of the following will satisfy the requirements for a degree: MATH 148, MATH 152 and MATH 172. ",
+            "footer": "Prerequisite: MATH 151 or equivalent; also taught at Galveston campus."
+          }
+        },
+        {
+          "id": "ENGR216",
+          "title": "ENGR 216",
+          "label": "2",
+          "description": "Mechanics Lab II",
+          "coursetype": "pre-engr",
+          "prereqs": [
+            "MATH151",
+            "ENGR102"
+          ],
+          "coreqs": [
+            "PHYS206"
+          ],
+          "metadata": {
+            "title": "ENGR 216/PHYS 216 Experimental Physics and Engineering Lab II - Mechanics",
+            "credit": "Credits 2. 1 Lecture Hour. 3 Lab Hours. ",
+            "body": "Description and application of laws of physical motion to the solution of science and engineering problems; using sensing, control and actuation for experimental verification of physics concepts while solving engineering problems. ",
+            "coursetype": "engr",
+            "footer": "Prerequisites: Grade of C or better in MATH 151 or MATH 171 or equivalent; grade of C or better in ENGR 102; grade of C or better and concurrent enrollment in PHYS 206; also taught at Galveston campus. Cross Listing: PHYS 216/ENGR 216."
+          }
+        },
+        {
+          "id": "PHYS206",
+          "title": "PHYS 206",
+          "label": "3",
+          "description": "Physics for Engineers I",
+          "coursetype": "pre-engr",
+          "prereqs": [
+            "MATH151"
+          ],
+          "coreqs": [
+            "ENGR216"
+          ],
+          "metadata": {
+            "title": "PHYS 206 Newtonian Mechanics for Engineering and Science",
+            "credit": "Credits 3. 3 Lecture Hours. ",
+            "body": "(PHYS 2325) Newtonian Mechanics for Engineering and Science.  Calculus-based introductory Newtonian mechanics; laws of physical motion for solution of science and engineering problems. ",
+            "footer": "Prerequisites: Grade of C or better in MATH 151 or MATH 171, or equivalent; also taught at Galveston campus."
+          }
+        },
+        {
+          "id": "COMM",
+          "title": "Comm. Elective",
+          "label": "3",
+          "description": "COMM 205, ENGL 203, or ENGL 210",
+          "coursetype": "ucc",
+          "prereqs": [],
+          "coreqs": [],
+          "metadata": {
+            "title": "",
+            "credit": "",
+            "body": "",
+            "footer": ""
+          }
+        },
+        {
+          "id": "UCC2",
+          "title": "UCC",
+          "label": "3",
+          "description": "Elective",
+          "coursetype": "ucc",
+          "prereqs": [],
+          "coreqs": [],
+          "metadata": {
+            "title": "",
+            "credit": "",
+            "body": "",
+            "footer": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "cards": []
+    },
+    {
+      "id": "3",
+      "cards": [
+        {
+          "id": "MATH251",
+          "title": "MATH 251",
+          "label": "3",
+          "description": "Engineering Math III",
+          "coursetype": "engr",
+          "prereqs": [
+            "MATH152"
+          ],
+          "coreqs": [],
+          "metadata": {
+            "title": "MATH 251 Engineering Mathematics III",
+            "credit": "Credits 3. 3 Lecture Hours. ",
+            "body": "Vector algebra, calculus of functions of several variables, partial derivatives, directional derivatives, gradient, multiple integration, line and surface integrals, Green's and Stokes' theorems. MATH 221 designed to be a more demanding version of this course. Only one of the following will satisfy the requirements for a degree: MATH 221, MATH 251 and MATH 253. ",
+            "footer": "Prerequisite: MATH 148, MATH 152, or MATH 172; also taught at Galveston campus."
+          }
+        },
+        {
+          "id": "ENGR217",
+          "title": "ENGR 217",
+          "label": "2",
+          "description": "Electricity/Mag. Lab III",
+          "coursetype": "pre-engr",
+          "prereqs": [
+            "MATH152",
+            "PHYS206",
+            "ENGR216"
+          ],
+          "coreqs": [
+            "PHYS207"
+          ],
+          "metadata": {
+            "title": "ENGR 217/PHYS 217 Experimental Physics and Engineering Lab III - Electricity and Magnetism",
+            "credit": "Credits 2. 1 Lecture Hour. 3 Lab Hours. ",
+            "body": "Electromagnetism and electromechanical systems; use of sensing, control and actuation to demonstrate key physical relationships through the transducer relationships linking pressure, temperature and other physical stimuli to changes in electric and magnetic fields. ",
+            "footer": "Prerequisites: Grade of C or better in MATH 152 or MATH 172, or equivalent; grade of C or better in PHYS 206 or equivalent; grade of C or better in PHYS 216/ENGR 216 or ENGR 216/PHYS 216; grade of C or better and concurrent enrollment in PHYS 207; also taught at Galveston campus. Cross Listing: PHYS 217/ENGR 217."
+          }
+        },
+        {
+          "id": "PHYS207",
+          "title": "PHYS 207",
+          "label": "3",
+          "description": "Physics for Engineers II",
+          "coursetype": "pre-engr",
+          "prereqs": [
+            "MATH152",
+            "PHYS206",
+            "ENGR216"
+          ],
+          "coreqs": [
+            "ENGR217"
+          ],
+          "metadata": {
+            "title": "PHYS 207 Electricity and Magnetism for Engineering and Science",
+            "credit": "Credits 3. 3 Lecture Hours. ",
+            "body": "(PHYS 2326) Electricity and Magnetism for Engineering and Science.  Calculus-based electricity and magnetism; electromagnetic phenomena; basic laws of electricity and magnetism; science and engineering problems involving charges, electromagnetic fields, and electrical circuits. ",
+            "footer": "Prerequisites: Grade of C or better in PHYS 206; grade of C or better in MATH 152 or MATH 172 or equivalent; also taught at Galveston campus."
+          }
+        },
+        {
+          "id": "MEEN225",
+          "title": "MEEN 225",
+          "label": "3",
+          "description": "Engineering Mechanics",
+          "coursetype": "engr",
+          "prereqs": [
+            "PHYS206"
+          ],
+          "coreqs": [
+            "MATH251"
+          ],
+          "metadata": {
+            "title": "MEEN 225 Engineering Mechanics",
+            "credit": "Credits 3. 2 Lecture Hours. 2 Lab Hours. ",
+            "body": "Application of the laws of classical mechanics to simplified, plausibly real world problems or interest to mechanical engineering, including the analysis of cables, frames, trusses, beams, machines and mechanisms. ",
+            "footer": "Prerequisites: Mechanical engineering major; grade of C or better in PHYS 206 or PHYS 218; grade of C or better in MATH 251 or MATH 253, or concurrent enrollment."
+          }
+        },
+        {
+          "id": "MEEN222",
+          "title": "MEEN 222",
+          "label": "3",
+          "description": "Materials Science",
+          "coursetype": "engr",
+          "prereqs": [
+            "CHEM107",
+            "PHYS206"
+          ],
+          "coreqs": [],
+          "metadata": {
+            "title": "MEEN 222/MSEN 222 Materials Science",
+            "credit": "Credits 3. 3 Lecture Hours. ",
+            "body": "Mechanical, optical, thermal, magnetic and electrical properties of solids; differences in properties of metals, polymers, ceramics and composite materials in terms of bonding and crystal structure. ",
+            "footer": "Prerequisites: Grade of C or better in CHEM 102 and CHEM 112, or CHEM 104 and CHEM 114, or CHEM 107 and CHEM 117; grade of C or better in PHYS 206 or PHYS 218. Cross Listing: MSEN 222/MEEN 222."
+          }
+        },
+        {
+          "id": "MEEN210",
+          "title": "MEEN 210",
+          "label": "2",
+          "description": "Modeling for Mech. Design",
+          "coursetype": "engr",
+          "prereqs": [
+            "ENGR102"
+          ],
+          "coreqs": [],
+          "metadata": {
+            "title": "MEEN 210 Geometric Modeling for Mechanical Design",
+            "credit": "Credits 2. 1 Lecture Hour. 2 Lab Hours. ",
+            "body": "Foundations of geometric modeling as applied to mechanical design through use of modern computer-aided design (CAD) and physical prototyping tools; basics of systematic design methodology; geometric visualization concepts: multiview orthographic, isometric, oblique, perspective; three-dimensional representations, surface and solid modeling; dimensioning and tolerancing; rapid prototyping using 3D printing. ",
+            "footer": "Prerequisites: Mechanical engineering major; grade of C or better in ENGR 102, and PHYS 206 or PHYS 218."
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "cards": [
+        {
+          "id": "MATH308",
+          "title": "MATH 308",
+          "label": "3",
+          "description": "Differential Equations",
+          "coursetype": "engr",
+          "prereqs": [],
+          "coreqs": [
+            "MATH251"
+          ],
+          "metadata": {
+            "title": "MATH 308 Differential Equations",
+            "credit": "Credits 3. 3 Lecture Hours. ",
+            "body": "Ordinary differential equations, solutions in series, solutions using Laplace transforms, systems of differential equations.  ",
+            "footer": "Prerequisites: MATH 221, MATH 251, or MATH 253, or concurrent enrollment; knowledge of computer algebra system; also taught at Galveston campus."
+          }
+        },
+        {
+          "id": "ECEN215",
+          "title": "ECEN 215",
+          "label": "3",
+          "description": "Prin. of Electrical Engineering",
+          "coursetype": "engr",
+          "prereqs": [
+            "PHYS207",
+            "MATH251"
+          ],
+          "coreqs": [],
+          "metadata": {
+            "title": "ECEN 215 Principles of Electrical Engineering",
+            "credit": "Credits 3. 2 Lecture Hours. 2 Lab Hours. ",
+            "body": "Fundamentals of electric circuit analysis and introduction to electronics for engineering majors other than electrical and computer engineering. ",
+            "footer": "Prerequisites: Grade of C or better in MATH 251 or MATH 253; Grade of C or better in PHYS 207 or PHYS 208."
+          }
+        },
+        {
+          "id": "ISEN302",
+          "title": "ISEN 302",
+          "label": "2",
+          "description": "Econ. Engr. Analysis",
+          "coursetype": "engr",
+          "prereqs": [
+            "MATH152"
+          ],
+          "coreqs": [],
+          "metadata": {
+            "title": "ISEN 302 Economic Analysis of Engineering Projects",
+            "credit": "Credits 2. 2 Lecture Hours. ",
+            "body": "Principles of economic equivalence; time value of money; analysis of single and multiple investments; comparison of alternatives; capital recovery and after-tax analysis of economic projects. ",
+            "footer": "Prerequisite: MATH 152 or MATH 172."
+          }
+        },
+        {
+          "id": "MEEN368",
+          "title": "MEEN 368",
+          "label": "3",
+          "description": "Solid Mech. in Mech. Design",
+          "coursetype": "engr",
+          "prereqs": [
+            "MEEN222",
+            "MEEN225"
+          ],
+          "coreqs": [],
+          "metadata": {
+            "title": "MEEN 368 Solid Mechanics in Mechanical Design",
+            "credit": "Credits 3. 2 Lecture Hours. 2 Lab Hours. ",
+            "body": "Stress analysis of deformable bodies and mechanical elements; stress transformation; combined loading; failure modes; material failure theories; fracture and fatigue; deflections and instabilities; thick cylinders; curved beams; design of structural/mechanical members; design processes. ",
+            "footer": "Prerequisites: Grade of a C or better in MEEN 221 or MEEN 225."
+          }
+        },
+        {
+          "id": "MEEN315",
+          "title": "MEEN 315",
+          "label": "3",
+          "description": "Princ. of Thermodynamics",
+          "coursetype": "engr",
+          "prereqs": [
+            "MEEN225",
+            "MATH251"
+          ],
+          "coreqs": [],
+          "metadata": {
+            "title": "MEEN 315 Principles of Thermodynamics",
+            "credit": "Credits 3. 3 Lecture Hours. ",
+            "body": "Theory and application of energy methods in engineering; conservation of mass and energy; energy transfer by heat, work and mass; thermodynamic properties; analysis of open and closed systems; the second law of thermodynamics and entropy; gas, vapor and refrigeration cycles. ",
+            "footer": "Prerequisites: Grade of a C or better in MEEN 221, MEEN 225, or CVEN 221; grade of a C or better in MATH 251 or MATH 253."
+          }
+        },
+        {
+          "id": "UCC3",
+          "title": "UCC",
+          "label": "3",
+          "description": "Elective",
+          "coursetype": "ucc",
+          "prereqs": [],
+          "coreqs": [],
+          "metadata": {
+            "title": "",
+            "credit": "",
+            "body": "",
+            "footer": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "cards": []
+    },
+    {
+      "id": "6",
+      "cards": [
+        {
+          "id": "MEEN357",
+          "title": "MEEN 357",
+          "label": "3",
+          "description": "Engr. Analysis for Mech.",
+          "coursetype": "engr",
+          "prereqs": [
+            "MATH308"
+          ],
+          "coreqs": [
+            "MEEN210"
+          ],
+          "metadata": {
+            "title": "MEEN 357 Engineering Analysis for Mechanical Engineers",
+            "credit": "Credits 3. 3 Lecture Hours. ",
+            "body": "Practical foundation for the use of numerical methods to solve engineering problems: Introduction to Matlab, error estimation, Taylor series, solution of non-linear algebraic equations and linear simultaneous equations; numerical integration and differentiation; initial value and boundary value problems; finite difference methods for parabolic and elliptic partial differential equations. ",
+            "footer": "Prerequisites: Grade of C or better in MATH 308; grade of C or better in MEEN 210 or concurrent enrollment."
+          }
+        },
+        {
+          "id": "MEEN260",
+          "title": "MEEN 260",
+          "label": "3",
+          "description": "Mechanical Measurements",
+          "coursetype": "engr",
+          "prereqs": [
+            "MEEN225",
+            "ECEN215"
+          ],
+          "coreqs": [
+            "MATH308",
+            "MEEN315"
+          ],
+          "metadata": {
+            "title": "MEEN 260 Mechanical Measurements",
+            "credit": "Credits 3. 2 Lecture Hours. 3 Lab Hours. ",
+            "body": "Introduction to the basic principles of engineering experimentation including: instrumentation and measurement techniques, signal processing and data acquisition, statistical data analysis, and interpretation and reporting of results. ",
+            "footer": "Prerequisites: Grade of a C or better in MEEN 225 or MEEN 221; grade of C or better in ECEN 215 and STAT 211; grade of a C or better in MATH 308 and MEEN 315, or concurrent enrollment."
+          }
+        },
+        {
+          "id": "MEEN381",
+          "title": "MEEN 381",
+          "label": "1",
+          "description": "Seminar",
+          "coursetype": "engr",
+          "prereqs": [],
+          "coreqs": [],
+          "metadata": {
+            "title": "MEEN 381 Seminar",
+            "credit": "Credit 1. 2 Other Hours. ",
+            "body": "Presentations by practicing engineers and faculty addressing: effective communications, engineering practices, professional registration, ethics, career-long competence, contemporary issues, impact of technology on society and being informed; preparation of a resume, a lifelong learning plan, two papers, two oral presentations and complete an online assessment of the mechanical engineering program. ",
+            "footer": "Prerequisite: Major in mechanical engineering."
+          }
+        },
+        {
+          "id": "MEEN363",
+          "title": "MEEN 363",
+          "label": "3",
+          "description": "Dynamics and Vibrations",
+          "coursetype": "engr",
+          "prereqs": [
+            "MEEN225",
+            "MATH308"
+          ],
+          "coreqs": [
+            "MEEN357"
+          ],
+          "metadata": {
+            "title": "MEEN 363 Dynamics and Vibrations",
+            "credit": "Credits 3. 2 Lecture Hours. 2 Lab Hours. ",
+            "body": "Dynamics and Vibration.  Application of Newtonian and energy methods to model dynamic systems (particles and rigid bodies) with ordinary differential equations; solution of models using analytical and numerical approaches; interpreting solutions; linear vibrations. ",
+            "footer": "Prerequisites: Grade of C or better in MEEN 225 or MEEN 221, and MATH 308; grade of a C or better in MEEN 357, or concurrent enrollment; also taught at Galveston campus."
+          }
+        },
+        {
+          "id": "MEEN344",
+          "title": "MEEN 344",
+          "label": "3",
+          "description": "Fluid Mechanics",
+          "coursetype": "engr",
+          "prereqs": [
+            "MEEN315"
+          ],
+          "coreqs": [],
+          "metadata": {
+            "title": "MEEN 344 Fluid Mechanics",
+            "credit": "Credits 3. 3 Lecture Hours. ",
+            "body": "Application of laws of statics, buoyancy, stability, energy and momentum to behavior of ideal and real fluids; dimensional analysis and similitude and their application to flow through ducts and piping; lift and drag and related problems. ",
+            "footer": "Prerequisites: Grade of C or better in MEEN 315."
+          }
+        },
+        {
+          "id": "UCC4",
+          "title": "UCC",
+          "label": "3",
+          "description": "Elective",
+          "coursetype": "ucc",
+          "prereqs": [],
+          "coreqs": [],
+          "metadata": {
+            "title": "",
+            "credit": "",
+            "body": "",
+            "footer": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "cards": [
+        {
+          "id": "MEEN364",
+          "title": "MEEN 364",
+          "label": "3",
+          "description": "Dynamic Syst. and Control",
+          "coursetype": "engr",
+          "prereqs": [
+            "MEEN260",
+            "MEEN363"
+          ],
+          "coreqs": [],
+          "metadata": {
+            "title": "MEEN 364 Dynamic Systems and Controls",
+            "credit": "Credits 3. 2 Lecture Hours. 3 Lab Hours. ",
+            "body": "Mathematical modeling, analysis, measurement and control of dynamic systems; extensions of modeling techniques of MEEN 363 to other types of dynamic systems; introduction to feedback control, time and frequency domain analysis of control systems, stability, PID control, root locus; design and implementation of computer-based controllers in the lab. ",
+            "footer": "Prerequisites: Grade of C or better in MEEN 260 and MEEN 363."
+          }
+        },
+        {
+          "id": "MEEN360",
+          "title": "MEEN 360",
+          "label": "3",
+          "description": "Mtls. & Mfg. Select. in Dsn.",
+          "coursetype": "engr",
+          "prereqs": [
+            "MEEN222",
+            "MEEN260",
+            "MEEN210"
+          ],
+          "coreqs": [],
+          "metadata": {
+            "title": "MEEN 360 Materials and Manufacturing Selection in Design",
+            "credit": "Credits 3. 3 Lecture Hours. ",
+            "body": "Selecting materials and manufacturing processes in design; emphasis on material mechanical properties; microstructure production and control; manufacturing processes for producing various shapes for components and structures; use of design methodology. ",
+            "footer": "Prerequisites: Grade of C or better in MEEN 210 and MEEN 260."
+          }
+        },
+        {
+          "id": "MEEN361",
+          "title": "MEEN 361",
+          "label": "1",
+          "description": "Materials & Mfg. Lab",
+          "coursetype": "engr",
+          "prereqs": [
+            "MEEN222",
+            "MEEN260"
+          ],
+          "coreqs": [
+            "MEEN360"
+          ],
+          "metadata": {
+            "title": "MEEN 361 Materials and Manufacturing in Design Laboratory",
+            "credit": "Credit 1. 3 Lab Hours. ",
+            "body": "Experiments in materials characterization and manufacturing processes; emphasis on material mechanical properties; microstructure production and control; manufacturing processes for producing various shapes for components and structures. ",
+            "footer": "Prerequisites: Grade of C or better in MEEN 260; grade of C or better in MEEN 360 or concurrent enrollment."
+          }
+        },
+        {
+          "id": "MEEN441",
+          "title": "MEEN 441",
+          "label": "3",
+          "description": "Design of Mech. Comp. & Syst.",
+          "coursetype": "engr",
+          "prereqs": [
+            "MEEN368"
+          ],
+          "coreqs": [],
+          "metadata": {
+            "title": "MEEN 441 Design of Mechanical Components and Systems",
+            "credit": "Credits 3. 3 Lecture Hours. ",
+            "body": "Design of machine elements, characteristics of prime movers, loads and power transmission elements as related to mechanical engineering design. ",
+            "footer": "Prerequisite: MEEN 368."
+          }
+        },
+        {
+          "id": "MEEN461",
+          "title": "MEEN 461",
+          "label": "3",
+          "description": "Heat Transfer",
+          "coursetype": "engr",
+          "prereqs": [
+            "MEEN344"
+          ],
+          "coreqs": [],
+          "metadata": {
+            "title": "MEEN 461 Heat Transfer",
+            "credit": "Credits 3. 3 Lecture Hours. ",
+            "body": "Heat transfer by conduction, convection and radiation: steady and transient conduction, forced and natural convection, and blackbody and gray body radiation; multi-mode heat transfer; boiling and condensation; heat exchangers. ",
+            "footer": "Prerequisite: Grade of C or better in MEEN 344."
+          }
+        },
+        {
+          "id": "MEEN345",
+          "title": "MEEN 345",
+          "label": "1",
+          "description": "Fluid Mechanics Lab",
+          "coursetype": "engr",
+          "prereqs": [
+            "MEEN260"
+          ],
+          "coreqs": [
+            "MEEN344"
+          ],
+          "metadata": {
+            "title": "MEEN 345 Fluid Mechanics Laboratory",
+            "credit": "Credit 1. 3 Lab Hours. ",
+            "body": "Introduction to basic fluid mechanics instrumentation; experimental verification and reinforcement of the analytical concepts introduced in MEEN 344. ",
+            "footer": "Prerequisites: Grade of C or better in MEEN 260; grade of C or better in MEEN 344 or concurrent enrollment."
+          }
+        },
+        {
+          "id": "UCC5",
+          "title": "UCC",
+          "label": "3",
+          "description": "Elective",
+          "coursetype": "ucc",
+          "prereqs": [],
+          "coreqs": [],
+          "metadata": {
+            "title": "",
+            "credit": "",
+            "body": "",
+            "footer": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "cards": []
+    },
+    {
+      "id": "9",
+      "cards": [
+        {
+          "id": "MEEN401",
+          "title": "MEEN 401",
+          "label": "3",
+          "description": "Intro. to Mech. Engr. Design",
+          "coursetype": "engr",
+          "prereqs": [
+            "MEEN360",
+            "MEEN361",
+            "MEEN364",
+            "MEEN441",
+            "MEEN461"
+          ],
+          "coreqs": [],
+          "metadata": {
+            "title": "MEEN 401 Introduction to Mechanical Engineering Design",
+            "credit": "Credits 3. 2 Lecture Hours. 3 Lab Hours. ",
+            "body": "The design innovation process; need definition, functional analysis, performance requirements and evaluation criteria, conceptual design evaluation, down-selected to an embodiment; introduction to systems and concurrent engineering; parametric and risk analysis, failure mode analysis, material selection, and manufacturability; cost and life cycle issues, project management. ",
+            "footer": "Prerequisites: Grade of C or better in MEEN 360, MEEN 361, MEEN 364, MEEN 441, and MEEN 461."
+          }
+        },
+        {
+          "id": "MEEN404",
+          "title": "MEEN 404",
+          "label": "3",
+          "description": "Engineering Laboratory",
+          "coursetype": "engr",
+          "prereqs": [
+            "MEEN360",
+            "MEEN361",
+            "MEEN364",
+            "MEEN461"
+          ],
+          "coreqs": [
+            "MEEN401"
+          ],
+          "metadata": {
+            "title": "MEEN 404 Engineering Laboratory",
+            "credit": "Credits 3. 2 Lecture Hours. 3 Lab Hours. ",
+            "body": "Systematic design of experimental investigations; student teams identify topics and develop experiment designs including: establishing the need; functional decomposition; requirements; conducting the experiment; analyzing and interpreting the results and written and oral reports documenting the objectives, procedure, analysis, and results and conclusion of two or three experiments. ",
+            "footer": "Prerequisites: Grade of C or better in MEEN 360, MEEN 361, MEEN 364 and MEEN 461; grade of C or better in MEEN 401 or concurrent enrollment."
+          }
+        },
+        {
+          "id": "MEENELE1",
+          "title": "MEEN",
+          "label": "3",
+          "description": "Thermofluids System Elective",
+          "coursetype": "elective",
+          "prereqs": [],
+          "coreqs": [],
+          "metadata": {
+            "title": "",
+            "credit": "",
+            "body": "",
+            "footer": ""
+          }
+        },
+        {
+          "id": "MEENELE2",
+          "title": "MEEN",
+          "label": "3",
+          "description": "Mech. & Mfg System Elective",
+          "coursetype": "elective",
+          "prereqs": [],
+          "coreqs": [],
+          "metadata": {
+            "title": "",
+            "credit": "",
+            "body": "",
+            "footer": ""
+          }
+        },
+        {
+          "id": "MEEN464",
+          "title": "MEEN 464",
+          "label": "1",
+          "description": "Heat Transfer Lab",
+          "coursetype": "engr",
+          "prereqs": [
+            "MEEN345"
+          ],
+          "coreqs": [
+            "MEEN461"
+          ],
+          "metadata": {
+            "title": "MEEN 464 Heat Transfer Laboratory",
+            "credit": "Credit 1. 3 Lab Hours. ",
+            "body": "Basic measurement techniques in conduction, convection, and radiation heat transfer; experimental verification of theoretical and semi-empirical results; uncertainty analysis. ",
+            "footer": "Prerequisites: Grade of C or better in MEEN 345; grade of C or better or MEEN 461 or concurrent enrollment."
+          }
+        },
+        {
+          "id": "UCC6",
+          "title": "UCC",
+          "label": "3",
+          "description": "Elective",
+          "coursetype": "ucc",
+          "prereqs": [],
+          "coreqs": [],
+          "metadata": {
+            "title": "",
+            "credit": "",
+            "body": "",
+            "footer": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "cards": [
+        {
+          "id": "MEEN402",
+          "title": "MEEN 402",
+          "label": "3",
+          "description": "Intermediate Design",
+          "coursetype": "engr",
+          "prereqs": [
+            "MEEN401"
+          ],
+          "coreqs": [],
+          "metadata": {
+            "title": "MEEN 402 Intermediate Design",
+            "credit": "Credits 3. 2 Lecture Hours. 3 Lab Hours. ",
+            "body": "Product detail design and development process including case studies; project management, marketing considerations, manufacturing, detailed design specifications; failure modes, application of codes and standards, selection of design margins; product (component) development guidelines; intellectual property, product liability and ethical responsibility. ",
+            "footer": "Prerequisite: Grade of C or better in MEEN 401."
+          }
+        },
+        {
+          "id": "MEENELE3",
+          "title": "MEEN",
+          "label": "3",
+          "description": "Technical Elective",
+          "coursetype": "elective",
+          "prereqs": [],
+          "coreqs": [],
+          "metadata": {
+            "title": "",
+            "credit": "",
+            "body": "",
+            "footer": ""
+          }
+        },
+        {
+          "id": "GENELE",
+          "title": "General Elective",
+          "label": "3",
+          "description": "Any 300-499",
+          "coursetype": "elective",
+          "prereqs": [],
+          "coreqs": [],
+          "metadata": {
+            "title": "",
+            "credit": "",
+            "body": "",
+            "footer": ""
+          }
+        },
+        {
+          "id": "MEENELE4",
+          "title": "MEEN/Non-MEEN",
+          "label": "3",
+          "description": "Technical Elective",
+          "coursetype": "elective",
+          "prereqs": [],
+          "coreqs": [],
+          "metadata": {
+            "title": "",
+            "credit": "",
+            "body": "",
+            "footer": ""
+          }
+        },
+        {
+          "id": "ENGR482",
+          "title": "ENGR 482",
+          "label": "3",
+          "description": "Engineering Ethics",
+          "coursetype": "engr",
+          "prereqs": [],
+          "coreqs": [],
+          "metadata": {
+            "title": "ENGR 482/PHIL 482 Ethics and Engineering",
+            "credit": "Credits 3. 2 Lecture Hours. 2 Lab Hours. ",
+            "body": "Development of techniques of moral analysis and their application to ethical problems encountered by engineers, such as professional employee rights and whistle blowing; environmental issues; ethical aspects of safety, risk and liability and conflicts of interest; emphasis on developing the capacity for independent ethical analysis of real and hypothetical cases. ",
+            "footer": "Prerequisite: Junior classification. Cross Listing: PHIL 482/ENGR 482."
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "cards": []
+    },
+    {
+      "id": "12",
+      "cards": []
+    },
+    {
+      "id": "13",
+      "cards": []
+    },
+    {
+      "id": "14",
+      "cards": []
+    }
+  ]
+}

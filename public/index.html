@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="theme-color" content="#000000">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+	<link href="./tour/dist/css/hopscotch.css" rel="stylesheet">
+	<script src="./tour/dist/js/hopscotch.js"></script>
+	<!-- <link href="./enjoyhint/enjoyhint.css" rel="stylesheet"> -->
+
+	<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
+	<!-- <script src="./enjoyhint/enjoyhint.min.js"></script> -->
+	<!-- <script src="./tour/js/bootstrap-tour-standalone.min.js"></script> -->
+  
+	<!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+	<link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+	<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+	<!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+	<title>React App</title>
+</head>
+
+<body>
+	<noscript>
+		You need to enable JavaScript to run this app.
+	</noscript>
+	<div id="root"></div>
+	<!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script>
+		function displayInfo() {
+			// Define the tour!
+			var tour = {
+				id: "tour",
+				steps: [
+					{
+						content: "Drag and drop courses to assemble your degree plan.",
+						placement: "right",
+						showPrevButton: true,
+						target: ".Board",
+						title: "MEEN Degree Planner",
+						yOffset: "center"
+					},
+					{
+						content: "Each course has a title as well as a number of hours associated with it. By clicking on a course, you can get more information about it.",
+						placement: "right",
+						nextOnTargetClick: true,
+						showPrevButton: true,
+						target: document.querySelector("[data-id='MEEN210']"),
+						title: "A Course"
+					},
+					{
+						content: "Many courses also have prerequisites and corequisites associated with them. Prerequisites are those courses that must be taken PRIOR to the current course. Corequisites must be taken either before or concurrent to the current course.",
+						placement: "right",
+						showPrevButton: true,
+						target: document.querySelector("[data-id='MEEN210']"),
+						title: "A Course"
+					},
+					{
+						content: "When hovering over a course, it's prerequisites will appear BLUE and its corequisites will appear PURPLE.",
+						placement: "bottom",
+						showPrevButton: true,
+						target: document.querySelector("[data-id='ENGR216']"),
+						title: "A Course"
+					},
+					{
+						content: "When you have finished arranging your courses. Click here to check if your plan is valid.",
+						nextOnTargetClick: true,
+						placement: "top",
+						showPrevButton: true,
+						target: '.check-courses-btn',
+						title: "Checking Your Degree Plan"
+					},
+					{
+						content: "You can check here to see if there are any prereq/coreq restrictions.",
+						placement: "left",
+						showPrevButton: true,
+						target: '.check-body',
+						title: "Checking Your Degree Plan",
+					},
+					{
+						content: "Many students may take classes over the summer. Click 'Add Summer' to add a summer semester directly after the corresponding year.",
+						nextOnTargetClick: true,
+						placement: "right",
+						showPrevButton: true,
+						target: '.add-summer-button',
+						title: "Summer Semesters",
+						xOffset: "10px",
+						yOffset: "-28px"
+					}, 
+					{
+						content: "You may have other courses outside the ones here that you may want to take. Click here to add a new course to your degree plan.",
+						nextOnTargetClick: true,
+						placement: "left",
+						showNextButton: false,
+						showPrevButton: true,
+						target: '.fa-plus',
+						title: "Adding Courses",
+						xOffset: "-15px", 
+						yOffset: "-10px"
+					}, 
+					{
+						content: "Enter the name of your course as well as the number of hours that your course is worth. Prereqs of added courses are not checked (yet). Make sure you check with your advisor if you have any questions.",
+						delay: "100",
+						nextOnTargetClick: true,
+						placement: "right",
+						showNextButton: false, 
+						target: '.modal-buttons',
+						title: "Adding Courses",
+						xOffset: "110px",
+						yOffset: "-100px"
+					}
+				]
+			};
+
+			// Start the tour!
+			hopscotch.startTour(tour);
+		}
+
+		function addCourseTour() {
+			// Define the tour!
+			var tour_add = {
+				id: "tour-2",
+				steps: [		
+					{
+						content: "Enter the name of your course as well as the number of hours that your course is worth. Prereqs of added courses are not checked (yet). Make sure you check with your advisor if you have any questions.",
+						delay: "100",
+						nextOnTargetClick: true,
+						placement: "right",
+						showNextButton: false, 
+						target: '.modal-buttons',
+						title: "Adding Courses",
+						xOffset: "110px",
+						yOffset: "-100px"
+					}
+				]
+			};
+
+			// Start the tour!
+			hopscotch.startTour(tour_add);
+		}
+
+		function openLinks(e) {
+		var container = document.querySelector('.check-body');
+			var title = document.querySelector('.description-title');
+			var credit = document.querySelector('.description-credit');
+			var body = document.querySelector('.description-body');
+			var footer = document.querySelector('.description-footer');
+
+			container.innerHTML = '';
+			title.innerHTML = 'AP & Dual Credit Courses';
+			credit.innerHTML = '';
+			footer.innerHTML = '';
+			body.innerHTML = `
+			<div>You may have received credit for some courses through AP Examination or Dual Credit while in high school. If so, place these courses in the box titled 'AP & DUAL CREDIT'.</div>
+			<div class="links">
+				<a href="https://compassxe-ssb.tamu.edu/HCA/ssb/transferCourseEquivalency/#!/inst" target="_blank">Transfer Course Equivalency</a>
+				<a href="http://testing.tamu.edu/TestingServices/media/Media/PDFs/AP.pdf" target="_blank">Credit By Examination</a>
+			</div>
+			`;
+		}
+
+		function addSummer(summerID) {
+			const addSummerButtons = document.querySelectorAll('.add-summer-button');
+			const summer = document.querySelector('.summer-' + summerID);
+			var contains = summer.querySelectorAll('.react-trello-card'); 
+			if(summer.classList.contains('visible') && contains.length === 0) {
+				addSummerButtons[summerID-1].innerHTML = 'Add Summer';
+				summer.classList.remove('visible');
+			} else {
+				summer.classList.add('visible');
+				addSummerButtons[summerID-1].innerHTML = 'Remove Summer';
+			}
+		}
+
+		var mouseDown = 0;
+
+		document.body.onmousedown = function () {
+			++mouseDown;
+		}
+
+		document.body.onmouseup = function () {
+			--mouseDown;
+		}
+
+    </script>
+</body>
+
+</html>
