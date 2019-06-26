@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/meen_degreeplanner/static/css/main.47f67248.chunk.css",
-    "main.js": "/meen_degreeplanner/static/js/main.c767081b.chunk.js",
-    "main.js.map": "/meen_degreeplanner/static/js/main.c767081b.chunk.js.map",
+    "main.js": "/meen_degreeplanner/static/js/main.50166cd2.chunk.js",
+    "main.js.map": "/meen_degreeplanner/static/js/main.50166cd2.chunk.js.map",
     "runtime~main.js": "/meen_degreeplanner/static/js/runtime~main.c5ff44a7.js",
     "runtime~main.js.map": "/meen_degreeplanner/static/js/runtime~main.c5ff44a7.js.map",
-    "static/js/2.1eb6b9b5.chunk.js": "/meen_degreeplanner/static/js/2.1eb6b9b5.chunk.js",
-    "static/js/2.1eb6b9b5.chunk.js.map": "/meen_degreeplanner/static/js/2.1eb6b9b5.chunk.js.map",
+    "static/js/2.face37fe.chunk.js": "/meen_degreeplanner/static/js/2.face37fe.chunk.js",
+    "static/js/2.face37fe.chunk.js.map": "/meen_degreeplanner/static/js/2.face37fe.chunk.js.map",
     "index.html": "/meen_degreeplanner/index.html",
-    "precache-manifest.278170258009d97ba9866543493c72a4.js": "/meen_degreeplanner/precache-manifest.278170258009d97ba9866543493c72a4.js",
-    "service-worker.js": "/meen_degreeplanner/service-worker.js",
-    "static/css/main.47f67248.chunk.css.map": "/meen_degreeplanner/static/css/main.47f67248.chunk.css.map"
+    "precache-manifest.a3fd90d7a5a3423938cfc6a38053a6bf.js": "/meen_degreeplanner/precache-manifest.a3fd90d7a5a3423938cfc6a38053a6bf.js",
+    "service-worker.js": "/meen_degreeplanner/service-worker.js"
   }
 }
