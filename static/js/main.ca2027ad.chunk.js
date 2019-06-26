@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],[,,,function(e,n,t){e.exports=t(4)},function(e,n,t){"use strict";t.r(n),t.d(n,"App",function(){return l});var a=t(0),r=t.n(a),o=t(2),c=t.n(o);function l(){return r.a.createElement("div",{className:"App"},r.a.createElement("div",{className:"actions"}," Hello World"))}var s=document.getElementById("root");c.a.render(r.a.createElement(l,null),s)}],[[3,1,2]]]);
+//# sourceMappingURL=main.ca2027ad.chunk.js.map
