@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/meen_degreeplanner/precache-manifest.1f528622a228033125f88f64b7125778.js"
+  "/meen_degreeplanner/precache-manifest.48af4386d235e939a35944feadc16b48.js"
 );
 
 self.addEventListener('message', (event) => {
