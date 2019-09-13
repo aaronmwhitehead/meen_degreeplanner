@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@terebentina/react-popover": "^2.0.0",
     "deep-diff": "^1.0.2",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
@@ -17,6 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -34,5 +36,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://aaronmwhitehead.github.io/meen_degreeplan"
+  "homepage": "https://aaronmwhitehead.github.io/meen_degreeplanner"
 }

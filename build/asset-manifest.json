@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/meen_degreeplanner/static/js/main.5612a86c.chunk.js",
+    "main.js.map": "/meen_degreeplanner/static/js/main.5612a86c.chunk.js.map",
+    "runtime~main.js": "/meen_degreeplanner/static/js/runtime~main.c5ff44a7.js",
+    "runtime~main.js.map": "/meen_degreeplanner/static/js/runtime~main.c5ff44a7.js.map",
+    "static/js/2.4a6a8038.chunk.js": "/meen_degreeplanner/static/js/2.4a6a8038.chunk.js",
+    "static/js/2.4a6a8038.chunk.js.map": "/meen_degreeplanner/static/js/2.4a6a8038.chunk.js.map",
+    "index.html": "/meen_degreeplanner/index.html",
+    "precache-manifest.a7872870c0538943f066225173dd9906.js": "/meen_degreeplanner/precache-manifest.a7872870c0538943f066225173dd9906.js",
+    "service-worker.js": "/meen_degreeplanner/service-worker.js"
+  }
+}
